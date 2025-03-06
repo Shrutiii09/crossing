@@ -237,12 +237,12 @@ export default function TicTacToe() {
                     position: 'absolute',
                     bottom: '-50px',
                     left: `${Math.random() * 100}%`,
-                    fontSize: '70px',
-                    animation: `pop 4s ease-out ${Math.random() * 3}s`,
+                    fontSize: '40px',
+                    animation: `pop 2s ease-out ${Math.random() * 3}s`,
                     transformOrigin: 'center',
                   }}
                 >
-                  🎉 🥳 🎊
+                🎉 🥳 🎊
                 </div>
               ))}
             </div>
